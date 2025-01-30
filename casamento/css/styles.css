@@ -3796,3 +3796,27 @@ height: 100% !important;
     }
     
 }
+
+.maps {
+    display: flex;
+    gap: 8px;
+    background-color: #198754;
+    width: max-content;
+    padding: 8px 20px;
+    border-radius: 10px;
+
+    color: #fff;
+    font-weight: 500;
+    margin-top: 20px;
+    transition: .3s;
+}
+
+.maps:hover{
+    display: flex;
+    color: #fff;
+    background-color: #015830;
+}
+.maps img{
+    width: 24px;
+    height: 24px;
+}
