@@ -233,7 +233,8 @@ input[type="checkbox"] {
 }
 /* submit and alert success  */
 button[type="submit"],
-input[type="submit"],.button_present {
+input[type="submit"],.button_present,
+.button_present_2 {
     display: inline-block;
     height: auto;
     padding: 17px 35px;
@@ -255,12 +256,14 @@ input[type="submit"] i {
 }
 button[type="submit"]:hover i,
 input[type="submit"]:hover i,
-.button_present:hover i{
+.button_present:hover i,
+.button_present_2:hover i {
     color: #fff;
 }
 button[type="submit"]:hover,
 input[type="submit"]:hover,
-.button_present:hover {
+.button_present:hover,
+.button_present_2:hover {
     border: none;
     background-color: #cb9d55;
     color: #fff;
